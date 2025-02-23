@@ -1,6 +1,6 @@
-import 'package:devtodollars/models/stripe.dart';
-import 'package:devtodollars/models/user_metadata.dart';
-import 'package:devtodollars/services/auth_notifier.dart';
+import 'package:teamapp/models/stripe.dart';
+import 'package:teamapp/models/user_metadata.dart';
+import 'package:teamapp/services/auth_notifier.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 

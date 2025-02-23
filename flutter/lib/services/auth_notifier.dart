@@ -86,10 +86,7 @@ class Auth extends _$Auth {
       "price": price,
     });
     String? redirectUrl = res.data["redirect_url"];
-    if (redirectUrl is String) {
-      return Uri.parse(redirectUrl);
-    }
-    return null;
+    return redirectUrl != null ? Uri.parse(redirectUrl) : null;
   }
 
   Future<void> signOut() async {
